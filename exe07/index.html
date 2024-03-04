@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html lang="zh-CH">
-    <heda>
+    <head>
         <meta charset="utf-8">
         <title>exe07</title>
-    </heda>
-    <body>
-        <caption>table01</caption><!--表格标题-->
-
-        <colgroup><!--表格样式-->
-            <col span="2" style="background-color: aqua;">
-            <col style="background-color: aquamarine;">
-            <col style="background-color: bisque;">
-        </colgroup>
+    </head>
+    <body> 
        <table border="1">
-        <thead><!--表格的header-->
-            <tr><th>01</th><th>02</th><th>03</th><th>04</th></tr>
-        </thead>
-        <tbody><!--表格内容-->
-            <tr><td>01</td><td>02</td><td>03</td><td rowspan="3">rowspan</td></tr>
-            <tr><td>04</td><td>05</td><td>06</td></tr>
-            <tr><td>07</td><td>08</td><td>09</td></tr>
-            <tr><td colspan="4">10</td></tr>
-        </tbody>
-        <tfoot><!--表格尾端-->
-            <tr><td><a href="www.google.com">google</a></td></tr>
-        </tfoot>
+            <caption>table01</caption><!--表格标题-->
+
+            <colgroup><!--表格样式-->
+                <col span="2" style="background-color: aqua;">
+                <col style="background-color: aquamarine;">
+                <col style="background-color: bisque;">
+            </colgroup>
+            <thread><!--表格的header-->
+                <tr><th>01</th><th>02</th><th>03</th><th>04</th></tr>
+            </thread>
+
+            <tbody><!--表格内容-->
+                <tr><td>01</td><td>02</td><td>03</td><td rowspan="3">rowspan</td></tr>
+                <tr><td>04</td><td>05</td><td>06</td></tr>
+                <tr><td>07</td><td>08</td><td>09</td></tr>
+                <tr><td colspan="4">10</td></tr>
+            </tbody>
+
+            <tfoot><!--表格尾端-->
+                <tr><td colspan="4"><a href="www.google.com">google</a></td></tr>
+            </tfoot>
        </table>
     </body>
 </html>

@@ -13,23 +13,49 @@
         .center{
             text-align: center;
         }
+        #text-of01{
+            width: 200px;
+            border: 1px solid slateblue;
+            overflow: hidden;
+            text-overflow: clip;
+            white-space: nowrap;
+        }
+        #text-of02{
+            width: 200px;
+            border: 1px solid slateblue;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        #text-content01{
+            width: 400px;
+            border: 1px solid steelblue;
+            text-indent: 32px;
+            text-align: justify;
+        }
+        #text-content02{
+            width: 400px;
+            border: 1px solid steelblue;
+            line-height: 40px;
+            text-align: justify;
+        }
     </style>
 </head>
 
-<h1>"Wild Bonds"</h1>
-<h1>"Wild Bonds"</h1>
+<h1 class="text-of01">"Wild Bonds"</h1>
+<h1 class="text-of02">"Wild Bonds"</h1>
 <h1 class="center">"Wild Bonds"</h1>
 
 <body>
-    <p>In the heart of the forest, a lone wolf roamed. With amber eyes, it searched for belonging. One day, a lost pup
+    <p id="text-content01">In the heart of the forest, a lone wolf roamed. With amber eyes, it searched for belonging. One day, a lost pup
         appeared, timid and hungry. The wolf took it in, teaching survival. Together, they found family in each other's
         company, proving that even the wild understands the language of love.</p>
-    <p>In the heart of the forest, a lone wolf roamed. With amber eyes, it searched for belonging. One day, a lost pup
+    <p id="text-content02">In the heart of the forest, a lone wolf roamed. With amber eyes, it searched for belonging. One day, a lost pup
         appeared, timid and hungry. The wolf took it in, teaching survival. Together, they found family in each other's
         company, proving that even the wild understands the language of love.</p>
 </body>
 <hr>
-<footer><p>https://chat.openai.com/</p></footer>
-<footer><p>https://chat.openai.com/</p></footer>
+<p id="text-title01">https://chat.openai.com/</p>
+<p id="text-title02">https://chat.openai.com/</p>
 
 </html>
